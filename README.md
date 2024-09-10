@@ -1,7 +1,7 @@
 # HIDRotaryEncoder
 Code for an Arduino Pro Micro to use a rotaty encoder as a HID device.
 
-Made for [Prusa's Oversized Volume Knob](https://blog.prusa3d.com/3d-print-an-oversized-media-control-volume-knob-arduino-basics_30184/), but should work with pretty much any rotary encoder connected to an Arduino.
+Made for [Prusa's Oversized Volume Knob](https://blog.prusa3d.com/3d-print-an-oversized-media-control-volume-knob-arduino-basics_30184/), but should work with pretty much any rotary encoder connected to an Arduino with HID support.
 
 ## Features
 - Seperate actions for rotating with and without the button held
@@ -28,5 +28,9 @@ Note that the pins used are slightly different from Prusa's design, this can be 
 ![Wiring diagram](Media/wiring_diagram.svg)
 
 Wiring diagram created using [Fritzing](https://fritzing.org/).
+
+##
+
+![alt text](Media/Volumeknob_disassembled.jpg)
 
 Read more about this project on my website: [https://marro.dev/blog/media-control-volume-knob](https://marro.dev/blog/media-control-volume-knob)
